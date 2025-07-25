@@ -342,3 +342,117 @@
       transform: scale(1.1);
     }
     
+
+
+  @media screen and (max-width: 576px) {
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  nav a {
+    display: none;
+  }
+  nav a.bold:last-child {
+    display: inline-flex;
+    font-size: 20px;
+    gap: 10px;
+    font-weight: 400;
+  }
+  header {
+    padding: 10px 20px;
+    margin: 0;
+  }
+  header > div img {
+    width: 120px;
+    height: auto;
+  }
+
+  /* 2. Banner */
+  .banner {
+    flex-direction: column;
+    margin: 20px;
+    text-align: left;
+  }
+  .banner img {
+    width: 100%;
+    order: -1; 
+  }
+  .banner-text {
+    width: 100%;
+    height: auto;
+    text-align: left;
+  }
+
+  /* 3. Plants section */
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 10px;
+  }
+  .product-card {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  /* 4. Plants Lover section */
+  .flex {
+    flex-direction: column;
+    margin:20px;
+    text-align: left;
+  }
+  .overlay-image {
+    display: none;
+  }
+  .image-container {
+    width: 100%;
+  }
+
+  /* 5. Latest Deals */
+  .row {
+    flex-direction: column;
+    height: auto;
+  }
+  .row > div {
+    width: 100%;
+    gap: 20px;
+  }
+  .deal-wrapper {
+    height: 400px;
+  }
+  
+  
+
+  /* 6. join Section */
+  .newsletter-content h2 {
+    font-size: 30px;
+    margin-top: 110px;
+  }
+
+  .input-wrapper {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .input-wrapper input[type="email"] {
+    width: 70%;
+    height: 70px;
+  }
+
+  .input-wrapper button {
+    width: 30%; 
+    margin: 0;
+    height: 70px;
+  }
+
+  /* 7. Footer */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 30px 20px;
+    padding: 20px;
+  }
+  .footer-column a {
+    margin-left: 10px;
+  }
+  
+}
