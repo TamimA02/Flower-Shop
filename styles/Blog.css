@@ -8,7 +8,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 20px 100px;
+      padding: 20px 5px;
       margin: 30px 150px 120px;
     }
     .logo {
@@ -130,7 +130,7 @@
     .flex {
       display: flex;
       align-items: center;
-      justify-content: space-around;
+      justify-content: space-between;
       margin: 200px 150px 130px;
     }
     .featured h2 {
@@ -146,7 +146,7 @@
       margin-left: 10px;
     }
     .featured ul li {
-        line-height: 1.5;
+        line-height: 1;
         margin-bottom: 10px;
         padding: 20px;
     }
@@ -155,16 +155,17 @@
         width: 600px;
     }
     .image-container img:first-child {
-        width: 100%;
+        width: 80%;
         border-radius: 10px;
     }
     .plant-content {
       max-width: 600px;
+      height: auto;
     }
     .overlay-image {
         position: absolute;
         top: -120px;
-        right: -100px;
+        right: -10px;
         width: 300px; 
         height: auto;
         border-radius: 50%;
@@ -173,7 +174,7 @@
 
 
     .latest-deals {
-      margin: 100px auto;
+      margin: 100px 120px;
     }
     .latest-deals h2 {
       text-align: center;
@@ -313,14 +314,14 @@
   .footer-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 100px;
+      gap: 40px;
       padding: 40px 60px;
-      margin: 50px 150px;
+      margin: 50px 100px;
     }
     .footer-grid p {
       color: #555;
       line-height: 1.6;
-      font-size: 25px;
+      font-size: 20px;
     }
     .footer-column a {
       display: flex;
@@ -329,7 +330,7 @@
       margin-bottom: 10px;
       font-weight: 500;
       line-height: 2.5;
-      margin-left: 40px;
+      margin-left: 20px;
       font-size: 20px;
     }
     .footer-column a:hover {
