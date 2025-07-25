@@ -16,7 +16,6 @@
       font-weight: bold;
       color: #f3701a;
     }
-    
     nav a {
       margin: 0 15px;
       text-decoration: none;
@@ -32,7 +31,8 @@
     }
 
 
-      .banner {
+
+    .banner {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -60,7 +60,8 @@
     }
 
 
-        .section-title {
+
+    .section-title {
       text-align: center;
       margin: 40px 0 20px;
       font-size: 50px;
@@ -122,4 +123,44 @@
     }
     .product-card button:hover {
       background-color: #d85f0e;
+    }
+
+
+
+    .flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 200px 150px 130px;
+    }
+    .featured h2 {
+      font-size: 50px;
+      font-weight: bold;
+      color: #333;
+    }
+    .featured ul {
+      padding-left: 20px;
+      color: #555;
+      font-size: 25px;  
+    }
+    .featured ul li {
+        line-height: 1.5;
+        margin-bottom: 10px;
+        padding: 20px;
+    }
+    .image-container {
+        position: relative;
+        width: 600px;
+    }
+    .image-container img:first-child {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .overlay-image {
+        position: absolute;
+        top: -120px;
+        right: -100px;
+        width: 300px; 
+        height: auto;
+        border-radius: 50%;
     }
