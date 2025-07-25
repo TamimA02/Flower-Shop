@@ -1,0 +1,60 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 100px;
+      margin: 30px 150px 120px;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #f3701a;
+    }
+    
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      font-size: 30px;
+    }
+    .bold {
+        font-weight: bold;
+    }
+    nav a:hover {
+      color: #f3701a;
+    }
+
+
+      .banner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 120px 150px ;
+    }
+    .banner-text {
+      width: 600px;
+      height: 300px;    
+    }
+    .banner-text h1 {
+      font-size: 65px;
+      font-weight: bold;
+    }
+    .banner-text h1 span {
+      color: #f3701a;
+    }
+    .banner-text p {
+      color: #666;
+      line-height: 1.6;
+      font-size: 15px;
+    }
+    .banner img {
+      width: 600px;
+      height: auto;
+    }
