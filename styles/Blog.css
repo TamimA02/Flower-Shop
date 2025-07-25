@@ -164,3 +164,82 @@
         height: auto;
         border-radius: 50%;
     }
+
+
+
+    .latest-deals {
+      margin: 100px auto;
+    }
+    .latest-deals h2 {
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+    }
+    .latest-deals h2 span {
+      color: orange;
+    }
+    .latest-deals p {
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+      color: #666;
+      font-size: 25px;
+      margin-bottom: 50px;
+    }
+    .row {
+      height: 600px;
+      display: flex;
+      gap: 20px;
+      max-width: 1600px;
+      margin: auto;
+    }
+    .row > div {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .deal-wrapper {
+      position: relative;
+      height: 100%;
+      flex: 1;
+      border-radius: 25px;
+      overflow: hidden;
+    }
+    .deal-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 25px;
+      display: block;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      border-radius: 25px;
+    }
+    .deal-text {
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .deal-link {
+      color: white;
+      font-size: 28px;
+      font-weight: 600;
+    }
+    .deal-link:hover {
+      background-color: orange;
+      color: white;
+    }
