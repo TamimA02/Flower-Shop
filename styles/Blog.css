@@ -403,8 +403,9 @@
   /* 4. Plants Lover section */
   .flex {
     flex-direction: column;
-    margin:20px;
+    margin:50px auto;
     text-align: left;
+    padding-left: 100px;
   }
   .overlay-image {
     display: none;
@@ -413,13 +414,15 @@
     width: 100%;
   }
 
+
   /* 5. Latest Deals */
   .row {
     flex-direction: column;
     height: auto;
+    align-items: center;
   }
   .row > div {
-    width: 100%;
+    width: 500px;
     gap: 20px;
   }
   .deal-wrapper {
