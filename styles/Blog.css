@@ -130,18 +130,20 @@
     .flex {
       display: flex;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content: space-around;
       margin: 200px 150px 130px;
     }
     .featured h2 {
       font-size: 50px;
       font-weight: bold;
       color: #333;
+      margin-left: 10px;
     }
     .featured ul {
       padding-left: 20px;
       color: #555;
       font-size: 25px;  
+      margin-left: 10px;
     }
     .featured ul li {
         line-height: 1.5;
@@ -155,6 +157,9 @@
     .image-container img:first-child {
         width: 100%;
         border-radius: 10px;
+    }
+    .plant-content {
+      max-width: 600px;
     }
     .overlay-image {
         position: absolute;
