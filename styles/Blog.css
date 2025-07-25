@@ -47,7 +47,7 @@
       font-weight: bold;
     }
     .banner-text h1 span {
-      color: #f3701a;
+      color: #E95A08;
     }
     .banner-text p {
       color: #666;
@@ -68,7 +68,7 @@
       font-weight: bold;
     }
     .section-title span {
-      color: #f3701a;
+      color: #E95A08;
     }
     .section-subtitle {
       text-align: center;
@@ -176,7 +176,7 @@
       font-weight: bold;
     }
     .latest-deals h2 span {
-      color: orange;
+      color: #E95A08;
     }
     .latest-deals p {
       text-align: center;
@@ -293,7 +293,7 @@
   .input-wrapper button {
     width: 150px;
     border: none;
-    background-color: orange;
+    background-color: #E95A08;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -302,3 +302,43 @@
   .input-wrapper input:focus {
     outline: none;
   }
+
+
+  
+  .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 100px;
+      padding: 40px 60px;
+      margin: 50px 150px;
+    }
+    .footer-grid p {
+      color: #555;
+      line-height: 1.6;
+      font-size: 25px;
+    }
+    .footer-column a {
+      display: flex;
+      text-decoration: none;
+      color: #333;
+      margin-bottom: 10px;
+      font-weight: 500;
+      line-height: 2.5;
+      margin-left: 40px;
+      font-size: 20px;
+    }
+    .footer-column a:hover {
+      color: #f3701a;
+    }
+    .footer-social a {
+      display: inline-block;
+
+    }
+    .footer-social img {
+      width: 30px;
+      border-radius: 5px;
+    }
+    .footer-social img:hover {
+      transform: scale(1.1);
+    }
+    
